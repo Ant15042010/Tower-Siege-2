@@ -1,7 +1,7 @@
 class Box extends BaseClass {
   constructor(x, y, width, height){
     super(x,y,width,height);
-    this.image = loadImage("sprites/rect.png");
+    this.image = loadImage("rect.png");
     this.v = 255;
   }
   display(){
