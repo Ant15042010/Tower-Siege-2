@@ -1,7 +1,7 @@
 class Pig extends BaseClass {
   constructor(x, y){
     super(x,y,50,50);
-    this.image = loadImage("sprites/Circle.png");
+    this.image = loadImage("Circle.png");
   }
   display(){
     if(this.body.speed < 3){
